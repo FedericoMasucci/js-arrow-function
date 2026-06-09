@@ -1,6 +1,11 @@
-const prices = [10, 20, 30];
-const iva = 22;
+const prices = [];
+let i;
+discount = 20;
 
-const newPrices = prices.map(price => price + (price * iva / 100));
+for (i = 0; i < 5; i++) {
+    prices[i] = Number(prompt("Inserisci 5 prezzi"));
+}
 
-console.log(newPrices);
+const addDisconut = prices.map(price => price - (price * discount / 100));
+
+console.log(addDisconut);

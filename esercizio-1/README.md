@@ -1,2 +1,5 @@
-# Esercizio
-Da una lista di prezzi netti, genera una nuova lista con i prezzi lordi (IVA al 22%)
+# Esercizio 1
+
+Data una lista di prezzi originali, applica uno sconto del 20% a ciascun prodotto
+
+
