@@ -1,6 +1,6 @@
 const prices = [];
 let i;
-discount = 20;
+const discount = 20;
 
 for (i = 0; i < 5; i++) {
     prices[i] = Number(prompt("Inserisci 5 prezzi"));
